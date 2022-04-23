@@ -72,6 +72,12 @@ app.layout = html.Div([
                         html.Li('Replaced ApplicantIncome to CoapplicantIncome'),
                     ]),
                     html.Li('Changed text color based on the approval status.'),
+                    html.Div(children=[
+                        html.A('Code on Github', href=githublink),
+                        html.Br(),
+                        html.A("Data Source", href=sourceurl),
+
+                    ]),
                     html.Hr(),
                     html.Div(
                         className='six columns',
@@ -109,9 +115,6 @@ app.layout = html.Div([
                             html.Div(id='DenialProb')
                         ]
                     ),
-                    html.A('Code on Github', href=githublink),
-                    html.Br(),
-                    html.A("Data Source", href=sourceurl),
                 ]
             ),
         ]),
