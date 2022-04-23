@@ -108,7 +108,10 @@ app.layout = html.Div([
                             html.Div('Probability of Denial:'),
                             html.Div(id='DenialProb')
                         ]
-                    )
+                    ),
+                    html.A('Code on Github', href=githublink),
+                    html.Br(),
+                    html.A("Data Source", href=sourceurl),
                 ]
             ),
         ]),
