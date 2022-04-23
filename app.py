@@ -112,8 +112,8 @@ app.layout = html.Div([
                 ]
             ),
         ]),
-        dcc.Tab(label='Tab two', children=[
-        ]),
+        # dcc.Tab(label='Tab two', children=[
+        # ]),
     ],
     style={'fontFamily': 'system-ui'},
     content_style={
